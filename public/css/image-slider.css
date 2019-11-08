@@ -1,0 +1,40 @@
+.one {
+    background-image: url('../img/forest.jpg');
+    min-width: 95vw;
+}
+
+.two {
+    background-image: url('../img/city.jpg');
+}
+
+.three {
+    background-image: url('../img/desert.jpg');
+    min-width: 95vw;
+}
+
+.slider {
+    font-family: sans-serif;
+    scroll-snap-type: x mandatory;  
+    display: flex;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+}
+section {
+    border-right: 1px solid white;
+    padding: 1rem;
+    min-width: 90vw;
+    height: 100vh;
+    scroll-snap-align: center;
+    text-align: center;
+    position: relative;
+}
+h1  {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    width: 100%;
+    left: 0;
+    font-size: calc(1rem + 3vw);
+}
