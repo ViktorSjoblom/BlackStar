@@ -8,49 +8,73 @@
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/image-slider.css" />
     <link rel="stylesheet" href="css/showcase.css" />
+    <link rel="stylesheet" href="css/countdown-timer.css">
     <title>Document</title>
   </head>
 
   <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <a href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-      <!-- Navbar -->
-      <nav id="navbar">
-        <a href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-      </nav>
+    <!-- Image Slider -->
+    <div class="slider">
+      <section class="one">
+        <h1>Section One</h1>
+      </section>
+      <section class="two">
+        <h1>Section Two</h1>
+      </section>
+      <section class="three">
+        <h1 class="three">Section Three</h1>
+      </section>
+    </div>
 
-      <!-- Image Slider -->
-      <div class="slider">
-        <section class="one">
-          <h1>Section One</h1>
-        </section>
-        <section class="two">
-          <h1>Section Two</h1>
-        </section>
-        <section class="three">
-          <h1 class="three">Section Three</h1>
-        </section>
+    <!-- Showcase -->
+
+    <div class="showcase-container">
+      <img
+        src="img/showcase-car-1.jpg"
+        class="showcase-car-1"
+        alt=""
+        srcset=""
+      />
+      <img
+        src="img/showcase-car-2.jpeg"
+        class="showcase-car-2"
+        alt=""
+        srcset=""
+      />
+      <img
+        src="img/showcase-car-3.jpg"
+        class="showcase-car-3"
+        alt=""
+        srcset=""
+      />
+      <img
+        src="img/showcase-car-4.jpeg"
+        class="showcase-car-4"
+        alt=""
+        srcset=""
+      />
+      <div class="selections">
+        <div class="selection-1"></div>
+        <div class="selection-2"></div>
+        <div class="selection-3"></div>
+        <div class="selection-4"></div>
       </div>
+    </div>
 
-      <!-- Showcase -->
+    <!-- Countdown Timer -->
 
-      <div class="showcase-container">
-        <img src="img/showcase-car-1.jpg" class="showcase-car-1" alt="" srcset="" />
-        <img src="img/showcase-car-2.jpeg" class="showcase-car-2" alt="" srcset="" />
-        <img src="img/showcase-car-3.jpg" class="showcase-car-3" alt="" srcset="" />
-        <img src="img/showcase-car-4.jpeg" class="showcase-car-4" alt="" srcset="" />
-        <div class="selections">
-          <div class="selection-1"></div>
-          <div class="selection-2"></div>
-          <div class="selection-3"></div>
-          <div class="selection-4"></div>
-        </div>
-      </div>
-
+    <p class="countdown"></p>
 
     <script src="js/index.js"></script>
     <script src="js/navbar.js"></script>
     <script src="js/showcase.js"></script>
+    <script src="js/countdown-timer.js"></script>
   </body>
 </html>
