@@ -17,8 +17,9 @@
     display: flex;
     -webkit-overflow-scrolling: touch;
     overflow-x: scroll;
+    
 }
-section {
+.slider * {
     border-right: 1px solid white;
     padding: 1rem;
     min-width: 90vw;
@@ -26,7 +27,9 @@ section {
     scroll-snap-align: center;
     text-align: center;
     position: relative;
+    display: block;
 }
+
 h1  {
     position: absolute;
     top: 50%;
