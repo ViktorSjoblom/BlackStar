@@ -15,11 +15,11 @@ const selection3 = selections.querySelector('.selection-3');
 const selection4 = selections.querySelector('.selection-4');
 
 const hideImages = () => {
-        showcaseDivs.forEach(element => {
-            element.style.display = 'none';
-        });
-    }
-    
+    showcaseDivs.forEach(element => {
+        element.style.display = 'none';
+    });
+}
+
 hideImages();
 showcaseImg1.style.display = 'block';
 
@@ -32,8 +32,6 @@ selections.addEventListener('click', (event) => {
         });
         selection.classList.add('active-selection');
     }
-
-    
 
     switch (selection) {
         case selection1:
