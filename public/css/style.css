@@ -9,6 +9,8 @@
     --dark-beige: #D2A574;
     --background-white: #E5E5E5;
     --black: #000000;
+    --dark-grey: #262626;
+    --light-grey: #a0a0a0;
 }
 body {
     font-family: sans-serif;
