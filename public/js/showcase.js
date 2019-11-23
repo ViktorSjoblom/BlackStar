@@ -22,6 +22,7 @@ const hideImages = () => {
 
 hideImages();
 showcaseImg1.style.display = 'block';
+selection1.classList.add('active-selection');
 
 selections.addEventListener('click', (event) => {
     const selection = event.target.parentNode;
