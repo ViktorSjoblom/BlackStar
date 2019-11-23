@@ -1,7 +1,6 @@
 .heading {
     margin-top: 14vw;
     margin-bottom: -2vw;
-    font-family: aktiv-grotesk, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -18,5 +17,5 @@
     margin-inline-start: 20px;
     font-size: 48px;
     line-height: 87.2%;
-    color: #000000;
+    color:var(--black);
 }

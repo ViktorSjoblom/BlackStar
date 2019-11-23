@@ -12,7 +12,24 @@
     --dark-grey: #262626;
     --light-grey: #a0a0a0;
 }
+
 body {
-    font-family: sans-serif;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 400;
 }
 
+
+/* Fonts */
+
+/* font-family: aktiv-grotesk,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-family: aktiv-grotesk,sans-serif;
+font-weight: 400;
+font-style: italic;
+font-family: aktiv-grotesk,sans-serif;
+font-weight: 700;
+font-style: normal;
+font-family: aktiv-grotesk,sans-serif;
+font-weight: 700;
+font-style: italic; */
