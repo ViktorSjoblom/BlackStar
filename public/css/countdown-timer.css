@@ -1,4 +1,82 @@
-.countdown {
-    text-align: center;
-    font-size: 60px;
+.countdown-container {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  width: 100%;
+}
+
+
+.countdown-container > div {
+  display: flex;
+  justify-content: space-around;
+  height: 150px;
+}
+
+
+.countdown-container > div > p:first-child {
+  font-weight: 700;
+  text-align: left;
+  width: 100%;
+  padding-right: 6rem;
+  margin: 1rem;
+}
+
+
+.countdown-container p:last-child {
+  font-size: 12px;
+}
+
+.countdown-textbox {
+  background: linear-gradient(133.85deg, rgba(241, 227, 212, 0.42) -10.91%, #BA8A57 100.93%);
+  width: 100%;
+  padding: 2rem 2rem;
+  display: flex;
+  margin-top: 4rem;
+}
+
+.countdown-black-line {
+  height: 61px;
+  width: 10px;
+  background-color: var(--black);
+  display: block;
+  margin-top: 0.5rem;
+  flex-shrink: 0;
+}
+
+.countdown-text {
+  margin-left: 20px;
+  text-align: left;
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+
+@media (min-width: 1200px) {
+  .countdown-timer {
+    display: flex;
+    flex-direction: row-reverse;
   }
+  .countdown-container {
+    width: 60%;
+  }
+  .countdown-textbox {
+    width: 40%;
+  }
+
+  .countdown-container > div > p:first-child {
+    font-size: 44px;
+    margin-left: 4rem;
+  }
+
+  .days, .hours, .minutes, .seconds {
+    font-size: 88px;
+  }
+
+  .countdown-text {
+    font-size: 36px;
+  }
+
+  
+}
