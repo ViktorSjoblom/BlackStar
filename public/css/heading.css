@@ -1,0 +1,22 @@
+.heading {
+    margin-top: 14vw;
+    margin-bottom: -2vw;
+    font-family: aktiv-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 87.2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    height: 150px;
+    background: linear-gradient(-35.03deg, var(--dark-beige) 0.15%, rgba(210, 165, 116, 0) 120.38%);
+}
+
+.heading h4 {
+    margin-inline-start: 20px;
+    font-size: 48px;
+    line-height: 87.2%;
+    color: #000000;
+}
