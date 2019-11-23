@@ -48,3 +48,9 @@
 .active-selection {
     font-weight: 700;
 }
+
+@media (min-width: 1200px) {
+    .selections {
+        width: 40%;
+    }
+}
