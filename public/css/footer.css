@@ -1,0 +1,45 @@
+.footer-section {
+    background: #E2D0BC;
+    width: auto;
+    height: auto;
+    max-height: 200vh;
+    margin: 0 auto;
+    padding: 7vw 0 3vw 0;
+    font-family: Aktiv Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 125.69%;
+    color: #000000;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#footer-logo {
+    max-height: 80vw;
+    max-width: 45vw;
+}
+
+.footer-section img {
+    max-height: 10vw;
+    max-width: 10vw;
+    margin: 2vw;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.contact {
+    text-decoration: underline;
+    margin: 5vw 0 5vw 0;
+}
