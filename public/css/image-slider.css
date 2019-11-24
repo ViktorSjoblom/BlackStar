@@ -1,14 +1,14 @@
 .one {
-    background-image: url('../img/forest.jpg');
+    background-image: url('../img/greenstudio_fram_rgb.jpg');
     min-width: 95vw;
 }
 
 .two {
-    background-image: url('../img/city.jpg');
+    background-image: url('../img/greenstudio_bak_rgb.jpg');
 }
 
 .three {
-    background-image: url('../img/desert.jpg');
+    background-image: url('../img/greenstudio_sida_rgb.jpg');
     min-width: 95vw;
 }
 
