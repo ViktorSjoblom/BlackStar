@@ -1,0 +1,23 @@
+.hero {
+    background: var(--dark-beige);
+}
+
+.hero-container {
+    position: relative;
+}
+
+.hero h2 {
+    padding: 1.5rem;
+    font-size: 48px;
+    width: 50%;
+    line-height: 87.2%;
+}
+
+@media (min-width: 1200px) {
+    .hero h2 {
+        position: absolute;
+        bottom: 2rem;
+        font-size: 88px;
+    }
+  
+}

@@ -1,5 +1,9 @@
+.nav-container {
+  background-color: var(--light-beige);
+}
+
 .nav-bar {
-  background-color: #e2d0bc;
+  background-color: var(--light-beige);
   position: fixed;
   top: 0;
   width: 100%;
@@ -27,6 +31,7 @@
   list-style: none;
   white-space: nowrap;
   padding: 1.5rem;
+  font-weight: 700;
 }
 
 .nav-links a {
@@ -99,6 +104,7 @@
 
   .nav-links li {
     padding: 0.7rem 1rem;
+    font-weight: 400;
   }
 
   .nav-links img {
