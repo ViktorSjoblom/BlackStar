@@ -47,7 +47,7 @@
   margin-left: 20px;
   text-align: left;
   font-size: 20px;
-  line-height: 1.4;
+  line-height: 154.2%;
   font-weight: 500;
 }
 
@@ -60,7 +60,7 @@
 @media (min-width: 1200px) {
   .countdown-container {
       width: 30%;
-      margin-left: 50rem;
+      margin-left: 70rem;
       padding: 2rem 0;
   }
   .countdown-container > div {
@@ -73,6 +73,16 @@
 
   .countdown-text {
     width: 30%;
+    font-size: 30px;
   }
+
+  .countdown-textbox {
+    height: 90vh;
+    font-size: 30px;
+}
+
+.countdown-text p:last-child {
+  font-size: 22px;
+}
 
 }
