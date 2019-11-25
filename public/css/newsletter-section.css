@@ -21,7 +21,6 @@
   position: absolute;
   right: 0px;
   width: 60%;
-
 }
 
 .newsletter-text-1 {
@@ -36,4 +35,49 @@
     color: white;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+}
+
+@media (min-width: 1200px) {
+  
+  .newsletter-section {
+    width: 100%;
+    padding: 0 4rem;
+  }
+
+  .newsletter-section h2 {
+    font-size: 52px;
+    width: 30%;
+    padding: 2rem 0.8rem;
+  }
+
+  .newsletter-section p {
+    font-size: 24px;
+  }
+
+  .newsletter-text-1, .newsletter-text-2, .newsletter-text-3 {
+    width: 40vw;
+    padding: 2rem 1rem;
+  }
+
+ .newsletter-flex {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   margin-bottom: 4rem;
+ }
+
+  .newsletter-section img {
+    width: 30%;
+    bottom: 0;
+  }
+
+  .newsletter-section button {
+    font-size: 22px;
+    margin-left: 0.8rem;
+    margin-bottom: 6rem;
+}
+
+
+
 }
