@@ -1,3 +1,7 @@
+.slider-desktop {
+    display: hidden;
+}
+
 .one, .two, .three {
     background-position: center;
     background-size: cover;
@@ -42,6 +46,7 @@
     text-align: center;
     position: relative;
     display: block;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.35);
 }
 
 h1  {
@@ -53,4 +58,54 @@ h1  {
     width: 100%;
     left: 0;
     font-size: calc(1rem + 3vw);
+}
+
+
+@media screen and (min-width: 768px) {
+
+.slider {
+    display: none;
+}
+
+.slider-desktop {
+    scroll-snap-type: x mandatory;  
+    display: flex;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+}
+
+.slider-desktop * {
+    border-right: 3px solid white;
+    min-width: 90vw;
+    height: 100vh;
+    scroll-snap-align: center;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+.slider-desktop p {
+    font-size: 60px;
+    line-height: 104.7%;
+    color: #FFFFFF;
+    max-height: 20%;
+    padding: 10vw 0 0 10vw;
+    text-align: start;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.35);
+}
+
+.one-desktop {
+    background-image: url('../img/driveway_desktop.png');
+    min-width: 95vw;
+}
+
+.two-desktop {
+    background-image: url('../img/coffee_desktop.png');
+}
+
+.three-desktop {
+    background-image: url('../img/night_desktop.png');
+    min-width: 95vw;
+}
+
 }
