@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="css/image-slider.css" />
     <link rel="stylesheet" href="css/showcase.css" />
     <link rel="stylesheet" href="css/countdown-timer.css" />
+    <link rel="stylesheet" href="css/folder.css">
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/newsletter-section.css" />
     <link rel="stylesheet" href="https://use.typekit.net/ahr6rzz.css" />
+    
     <title>Document</title>
   </head>
 
@@ -163,6 +165,84 @@
         </div>
       </div>
     </div>
+
+    <!-- Folder section -->
+
+    <section class="folder-section">
+      <div class="folder-container">
+          <h2>Want a folder full of interesting information?</h2>
+
+          <a href="">Download PDF folder here</a>
+    
+          <p>Or get one sent to you:</p>
+    
+          <form
+            autocomplete="off"
+            action="index.html"
+            class="form-inputs"
+            method="POST"
+          >
+            <div class="input-container">
+              <input
+                class="input-information input-fullname"
+                name="full-name"
+                type="text"
+                placeholder="Full name*"
+                required
+              />
+    
+              <input
+                class="input-information input-margin"
+                name="address-line-1"
+                type="text"
+                placeholder="Address line 1*"
+                required
+              />
+    
+              <input
+                class="input-information"
+                name="Address-line-2"
+                type="text"
+                placeholder="Address line 2"
+              />
+    
+              <input
+                class="input-information input-margin"
+                name="zip-code"
+                type="text"
+                placeholder="Zip code*"
+                required
+              />
+    
+              <input
+                class="input-information"
+                name="city"
+                type="text"
+                placeholder="City*"
+                required
+              />
+    
+              <input
+                class="input-information input-margin"
+                name="country"
+                type="text"
+                placeholder="Country*"
+                required
+              />
+            </div>
+            <section class="desktop-checkbox">
+            <div class="checkbox-container">
+              <input type="checkbox" name="vehicle1" value="Bike" required />
+              <span>I’m not an alien</span>
+              <img src="img/recaptcha-logo.svg" alt="recaptcha-logo" />
+            </div>
+    
+            <button class="folder-button" type="submit"><span>Send</span></button>
+          </section>
+          </form>
+      </div>
+      
+    </section>
 
   
     <!-- Footer -->
