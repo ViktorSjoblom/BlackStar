@@ -34,7 +34,7 @@ color: var(--black);
     width: 238px;
     height: 44px;
     left: 24px;
-    background: var(--dark-beige);
+    background: #83675D;
     border-radius: 4px;
     outline: none;
     border: none;
@@ -46,7 +46,7 @@ color: var(--black);
     font-family: aktiv-grotesk,sans-serif;
     font-size: 14px;
     line-height: 116.2%;
-    color: #696969;
+    color: #fff;
     padding-left: 20px;
     display: block;
     opacity: 0.8;
@@ -74,11 +74,15 @@ color: var(--black);
   .folder-button{
     width: 98px;
     height: 44px;
-    background: var(--light-beige);
+    background: #000000;
     border-radius: 4px;
     outline: none;
     border: none;
     
+  }
+
+  .folder-button span{
+      color: #fff;
   }
 
   input[type=text]
@@ -98,12 +102,37 @@ color: var(--black);
     .folder-section{
        
         width: 100%;
-
-    
-    
     }
 
     .folder-container {
-        width: 60%;
+        width: 695px;
+        margin-left: 25px;
     }
+
+    .input-information{
+        width: 290px;
+        height: 59px;
+        left: 100px;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+       margin: 25px 25px 15px 0px;
+       
+    }
+
+    .desktop-checkbox{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    
+    }
+   .folder-button{
+       margin-top: 15px;
+       margin-right: 220px;
+    
+   }
+  
+   .input-margin{
+margin-left:55px;
+   }
 }
