@@ -19,6 +19,10 @@ body {
     background-color: var(--light-beige);
 }
 
+a {
+    text-decoration: none;
+}
+
 
 
 /* Fonts */
