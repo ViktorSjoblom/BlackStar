@@ -1,0 +1,39 @@
+.newsletter-section {
+  background: #fff;
+  padding: 1rem 1rem;
+  position: relative;
+}
+
+.newsletter-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  width: 80%;
+
+}
+
+.newsletter-text h3 {
+  font-size: 24px;
+  margin: 1rem 0;
+  
+}
+
+.newsletter-section img {
+  position: absolute;
+  right: 0px;
+  width: 60%;
+
+}
+
+.newsletter-text-1 {
+  width: 60%;
+}
+
+.newsletter-section button {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: none;
+    background: var(--dark-beige);
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
