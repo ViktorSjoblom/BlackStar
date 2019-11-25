@@ -13,6 +13,17 @@
     padding: 5rem 2rem 1rem 1rem;
 }
 
+.hero-img {
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-img img {
+    width: 100%;
+    display: block;
+}
+
 @media (min-width: 1200px) {
     .hero h2 {
         position: absolute;
