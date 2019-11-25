@@ -6,6 +6,14 @@
     background: white;
 }
 
+.big-middle {
+    display: none;
+}
+
+.middle-section-big-car {
+    display: none;
+}
+
 #connected-text {
     position: absolute;
     width: 100%;
@@ -75,4 +83,72 @@ margin: 10vw 0 0 8vw;
 .middle-section button:active {
     box-shadow: 0 5px;
     transform: translateY(2px);
+}
+
+@media only screen and (min-width: 768px) {
+    
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.middle-section h2 {
+    font-size: 52px;
+    line-height: 110.2%;
+}
+
+.middle-section h4 {
+    font-size: 36px;
+    line-height: 116%;
+}
+
+.middle-section p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 154.2%;
+}
+
+#connected-text {
+    position: unset;
+}
+
+.middle-section-flex h4 {
+    position: unset;
+    }
+
+.middle-section img {
+        max-width: 500px;
+        max-height: 450px;
+        margin: 0 auto;
+    }
+
+.big-middle {
+    display: block;
+}
+
+.middle-section-flex-second {
+    display: flex;
+}
+
+.middle-section-car {
+    display: none;
+}
+
+.middle-section-big-car {
+    display: block;
+}
+
+.button-flex button {
+    width: 295px;
+    height: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 116.2%;
+}
+
+.middle-section {
+}
+
 }
