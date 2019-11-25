@@ -1,3 +1,9 @@
+.one, .two, .three {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .one {
     background-image: url('../img/greenstudio_fram_rgb.jpg');
     min-width: 95vw;
