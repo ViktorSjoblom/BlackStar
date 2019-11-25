@@ -29,7 +29,7 @@
 .nav-links li {
   list-style: none;
   white-space: nowrap;
-  padding: 1.5rem;
+  padding: 1rem;
   font-weight: 700;
 }
 
@@ -80,7 +80,6 @@
 
   .nav-bar {
     justify-content: space-between;
-    padding: 0 1rem;
   }
   .nav-links {
     position: absolute;
@@ -98,8 +97,12 @@
     border-bottom: var(--dark-beige) 12px solid;
   }
 
+  .nav-links ul {
+    width: 100%;
+  }
+
   .nav-links li {
-    padding: 0.7rem 1rem;
+  
     font-weight: 400;
   }
 
