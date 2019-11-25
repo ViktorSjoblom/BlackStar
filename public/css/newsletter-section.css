@@ -3,6 +3,7 @@
     flex-direction: column;
     border-top: 15px solid black;
     overflow: hidden;
+    background: white;
 }
 
 #connected-text {
