@@ -4,7 +4,7 @@
     height: 249px;
     max-height: 200vh;
     margin: 0 auto;
-    padding: 7vw 0 3vw 0;
+    padding: 0 0 3vw 0;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -17,8 +17,7 @@
     align-items: center;
 }
 
-#footer-eng-flag,
-#footer-swe-flag {
+.footer-section-desktop {
     display: none;
 }
 
@@ -40,6 +39,12 @@
     margin-top: 5vw;
 }
 
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .contact {
     font-size: 14px;
     text-decoration: underline;
@@ -49,41 +54,56 @@
 @media screen and (min-width: 768px) {
 
 .footer-section {
-    height: auto;
-    max-height: 510px;
-    margin: 0;
-    padding: 0;
+    display: none;
+}
+
+.footer-section-desktop {
+    display: flex;
+    width: auto;
+    min-height: 566px;
+    background: #E2D0BC;
+}
+
+.footer-flags {
+    min-width: 86px;
+    min-height: 43px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.social-media-desktop img {
+    min-width: 94px;
+    min-height: 94px;
+}
+
+.social-media-desktop p {
     font-size: 24px;
     line-height: 125.69%;
 }
 
-.footer-text-social-media {
-    display: flex;
-    justify-content: space-between;
-}
-
-.social-media {
-    display: block;
-}
-
-.contact {
+.contact-desktop {
     font-size: 36px;
     line-height: 125.69%;
 }
 
-#footer-eng-flag,
-#footer-swe-flag {
-    display: block;
-    max-width: 86px;
-    max-height: 43px;
-    width: 100%;
-    height: 100%;
+.footer-logo-desktop-flex{
+    display: flex;
+    width: auto;
+    height: auto;
 }
 
-.footer-flags {
-flex-direction: column;
+.footer-logo-desktop-flex img {
+    width: 350px;
 }
 
-
+.footer-section-bottom {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
 
 }
