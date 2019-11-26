@@ -1,10 +1,11 @@
 .showcase-container {
-  background: linear-gradient(180deg, #717171 0%, rgba(160, 160, 160, 0.21) 100%), rgba(160, 160, 160, 0.3);
+  background: #fff;
    display: flex;
    flex-direction: column;
    align-items: center;
    padding: 10px;
 }
+
 
 .showcase-container img {
   display: block;
@@ -14,15 +15,16 @@
   object-position: center;
 }
 
-.showcase-container > p {
+.showcase-container p:first-child {
   text-align: center;
+  font-size: 24px;
   padding: 25px 0;
 }
 
 .selections {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 90vw;
 }
 
 .selections > div {
@@ -53,4 +55,51 @@
     .selections {
         width: 40%;
     }
+
+    .showcase-container {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+
+    .showcase-flex-left {
+      width: 100%;
+    }
+    .showcase-flex-right {
+     
+      width: 100%;
+      
+    }
+
+    .selections {
+      width: 100%;
+      height: 100%;
+    }
+
+    .selections > div {
+      width: 100%;
+      height: 100%;
+    }
+
+    .showcase-container p:first-child {
+      font-size: 44px;
+      padding: 2rem;
+    }
+
+    .showcase-container img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .selections div > p {
+      font-size: 36px;
+      white-space: nowrap;
+      bottom: -3rem;
+      right: 1rem;
+    }
+
+  
+   
+    
 }
