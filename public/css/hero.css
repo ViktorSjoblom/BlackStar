@@ -32,11 +32,14 @@
   border-radius: 50%;
   background-color: var(--dark-beige);
   position: sticky;
+  position: -webkit-sticky;
   z-index: 2;
   top: 85vh;
   left: 75vw;
   padding: 0.4rem; 
 }
+
+
 
 .sticky-circle p {
   text-transform: uppercase;
