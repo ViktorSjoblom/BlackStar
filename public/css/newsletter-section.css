@@ -36,6 +36,11 @@
   font-size: 16px;
 }
 
+#newsletter-hidden,
+#newsletter-hidden-2 {
+  display: none;
+}
+
 @media (min-width: 520px) {
   .newsletter-section img {
     width: 20%;
@@ -52,14 +57,12 @@
   .newsletter-section img {
     width: 12%;
   }
-
+}
 @media (min-width: 1200px) {
   .newsletter-section {
     width: 100%;
     padding: 0 4rem;
   }
-
-}
 
   .newsletter-section h2 {
     font-size: 52px;
@@ -85,8 +88,6 @@
     margin-bottom: 4rem;
   }
 
-  
-
   .newsletter-section button {
     font-size: 22px;
     margin-left: 0.8rem;
@@ -99,5 +100,39 @@
     right: 15rem;
   }
 
- 
+  .newsletter-lg {
+    font-size: 72px;
+    white-space: nowrap;
+  }
+
+  #newsletter-hidden {
+    width: 30%;
+    padding: 0;
+    display: block;
+  }
+  #newsletter-hidden img {
+    width: 100%;
+  }
+  #newsletter-hidden-2 {
+    width: 30%;
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+  #newsletter-hidden-2 img {
+    width: 100%;
+  }
+
+  .newsletter-section-3 {
+    width: 100%;
+    position: relative;
+  }
+  .newsletter-section-3 p, .newsletter-section-3 h3 {
+    margin-left: 1rem;
+  }
+
+  .newsletter-section-3 img {
+    width: 100%;
+    position: absolute;
+  }
 }
