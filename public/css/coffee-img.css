@@ -1,0 +1,36 @@
+.coffee-image{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+
+}
+
+.coffee-image :first-child {
+    height: 100%; 
+    width: 100%;
+    object-fit:cover; 
+}
+
+.coffee-image :last-child{
+    display: none;
+}
+
+
+
+@media screen and (min-width: 1000px){
+
+    .coffee-image :first-child {
+        display: none;
+    }
+    
+    .coffee-image :last-child{
+        height: 100%; 
+        width: 100%;
+        object-fit:cover; 
+        display: block;
+    }
+
+}
