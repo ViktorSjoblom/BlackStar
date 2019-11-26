@@ -1,5 +1,5 @@
 .slider-desktop {
-    display: hidden;
+    display: none;
 }
 
 .one, .two, .three {
@@ -9,16 +9,16 @@
 }
 
 .one {
-    background-image: url('../img/driveway_mobile.png');
+    background-image: url('../img/mobile/Mobil_Karsulsell_01.png');
     min-width: 95vw;
 }
 
 .two {
-    background-image: url('../img/coffee_mobile.png');
+    background-image: url('../img/mobile/Mobil_Karusell_02.png');
 }
 
 .three {
-    background-image: url('../img/night_mobil.png');
+    background-image: url('../img/mobile/Mobil_Karusell_043.png');
     min-width: 95vw;
 }
 
@@ -95,16 +95,16 @@ h1  {
 }
 
 .one-desktop {
-    background-image: url('../img/driveway_desktop.png');
+    background-image: url('../img/desktop/Desktop_Karusell_Bild_01.png');
     min-width: 95vw;
 }
 
 .two-desktop {
-    background-image: url('../img/coffee_desktop.png');
+    background-image: url('../img/desktop/Desktop_karusell_Bild_02.png');
 }
 
 .three-desktop {
-    background-image: url('../img/night_desktop.png');
+    background-image: url('../img/desktop/Desktop_Karusell_Bild_03.png');
     min-width: 95vw;
 }
 
