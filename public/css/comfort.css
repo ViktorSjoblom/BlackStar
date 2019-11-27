@@ -1,4 +1,5 @@
 .comfort-slide-one {
+
   color: white;
   width: 100%;
   height: 325px;
@@ -14,6 +15,22 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/mobile/Mobil_04_Feelthecomfort.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 100%;
+    height: 776px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.comfort-slide-one-text {
+    padding-top: 20vw 0 0 0;
+
 }
 
 .comfort-slide-two p {
@@ -40,6 +57,7 @@
 }
 
 .comfort-slides {
+
   border-top: 15px solid black;
   display: flex;
   flex-direction: column;
@@ -55,6 +73,13 @@
     display: none;
   }
   .comfort-slide-one {
+
+    border-top: 15px solid black;
+}
+
+@media only screen and (min-width: 768px) {
+.comfort-slide-one {
+
     width: 100%;
     height: 806px;
   }
