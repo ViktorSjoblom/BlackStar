@@ -163,6 +163,7 @@
     z-index: 2;
     top: 15vh;
     left: 30vw;
+    padding: 1vw;
   }
   
   .newsletter-mobile-active {
@@ -201,7 +202,7 @@
     height: 44px;
     border-radius: 4px;
     text-align: center;
-    margin: 0vw 0 0 0vw;
+    margin: 1vw 0 0 0vw;
     padding: 1vw;
   }
   
@@ -213,7 +214,7 @@
   .newsletter-mobile input[type=checkbox] {
     width: 20px;
     height: 20px;
-    margin: 1vw 1vw 0 0;
+    margin: 1vw .5vw 0 .5vw;
   }
   
   .newsletter-mobile button {
