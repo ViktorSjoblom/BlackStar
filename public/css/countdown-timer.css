@@ -57,9 +57,8 @@
 
 @media (min-width: 1200px) {
   .countdown-container {
-    width: 30%;
-    margin-left: 55rem;
-    padding: 2rem 0;
+    width: 100%;
+    padding: 2rem 0 2rem 60rem;
   }
   .countdown-container > div {
     font-size: 68px;
@@ -78,8 +77,8 @@
     font-size: 30px;
     background: url("../img/desktop/desktop_02_front.png");
     background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .countdown-text p:last-child {
