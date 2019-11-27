@@ -1,0 +1,75 @@
+.logo-front-container{
+    position: relative;
+    text-align: center;
+    padding: 15px 0px;
+    background-color: var(--black);
+  }
+
+
+
+
+.logo-front-mobile-image{
+    display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  
+}
+
+
+.logo-front-desktop-image{
+  display: none;
+}
+
+.logo-front-container h3 {
+    position: absolute;
+    bottom: 40px;
+    left: 23px;
+    text-align: left;
+    color: #fff;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    
+    
+  }
+
+  @media screen and (min-width: 600px) {
+
+    .logo-front-container h3 {
+        margin-left: 50px;
+        margin-top: 50px;
+        font-size: 40px;
+        
+      }
+
+  }
+
+
+@media screen and (min-width: 1000px) {
+
+    .logo-front-mobile-image{
+        display: none;
+      
+    }
+
+
+    .logo-front-desktop-image{
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+        
+      }
+
+      .logo-front-container h3 {
+  
+        margin-left: 50px;
+        margin-top: 50px;
+        font-size: 60px;
+        
+      }
+
+}
