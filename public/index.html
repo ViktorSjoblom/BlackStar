@@ -59,10 +59,12 @@
       <div class="hero-container">
       <h2>The Capsule</h2>
       
-    
-          <img src="./img/mobile/Mobil_01_framsida.png" class="hero-img" alt="">
           
-    
+          <picture class="hero-img">
+            <source media="(min-width: 650px)" srcset="./img/desktop/Deskotop_01_FramsidaBild.png">
+            <source media="(min-width: 465px)" srcset="./img/mobile/Mobil_01_framsida.png">
+            <img src="./img/mobile/Mobil_01_framsida.png" alt="Car">
+          </picture>
      
    
     <!-- Countdown Timer -->
