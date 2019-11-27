@@ -23,6 +23,13 @@ a {
     text-decoration: none;
 }
 
+.img-visible {
+    display: block;
+}
+
+.img-hidden {
+    display: none;
+}
 
 
 /* Fonts */
