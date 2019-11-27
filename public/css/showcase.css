@@ -9,8 +9,7 @@
 
 .showcase-container img {
   display: block;
-  width: 275px;
-  height: 188px;
+  width: 100%;
   object-fit: cover;
   object-position: center;
 }
