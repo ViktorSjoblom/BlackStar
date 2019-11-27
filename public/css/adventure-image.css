@@ -22,12 +22,14 @@
 
 .adventure-container h3 {
     position: absolute;
-    top: 15px;
-    left: 16px;
+    bottom: 40px;
+    left: 23px;
+    text-align: left;
     color: #fff;
     font-family: aktiv-grotesk, sans-serif;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 36px;
+    
     
   }
 
