@@ -1,80 +1,80 @@
 .slider-desktop {
-    display: none;
+  display: none;
 }
 
-.one, .two, .three {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.one,
+.two,
+.three {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .one {
-    background-image: url('../img/mobile/Mobil_Karsulsell_01.png');
-    min-width: 95vw;
+  background-image: url("../img/mobile/Mobil_Karusell_01.png");
+  min-width: 95vw;
 }
 
 .two {
-    background-image: url('../img/mobile/Mobil_Karusell_02.png');
+  background-image: url("../img/mobile/Mobil_Karusell_02.png");
 }
 
 .three {
-    background-image: url('../img/mobile/Mobil_Karusell_043.png');
-    min-width: 95vw;
+  background-image: url("../img/mobile/Mobil_Karusell_03.png");
+  min-width: 95vw;
 }
 
 .slider p {
-    font-size: 36px;
-    line-height: 104.7%;
-    color: #FFFFFF;
-    max-height: 20%;
-    padding: 10vw 0 0 10vw;
-    text-align: start;
+  font-size: 36px;
+  line-height: 104.7%;
+  color: #ffffff;
+  max-height: 20%;
+  padding: 10vw 0 0 10vw;
+  text-align: start;
 }
 
 .slider {
-    scroll-snap-type: x mandatory;  
-    display: flex;
-    -webkit-overflow-scrolling: touch;
-    overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  display: flex;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
 }
 
 .slider * {
-    border-right: 3px solid white;
-    min-width: 90vw;
-    height: 100vh;
-    scroll-snap-align: center;
-    text-align: center;
-    position: relative;
-    display: block;
-    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.35);
+  border-right: 3px solid white;
+  min-width: 90vw;
+  height: 100vh;
+  scroll-snap-align: center;
+  text-align: center;
+  position: relative;
+  display: block;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.35);
 }
 
-h1  {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: white;
-    width: 100%;
-    left: 0;
-    font-size: calc(1rem + 3vw);
+h1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+  width: 100%;
+  left: 0;
+  font-size: calc(1rem + 3vw);
 }
-
 
 @media screen and (min-width: 768px) {
-
-.slider {
+  .slider {
     display: none;
-}
+  }
 
-.slider-desktop {
-    scroll-snap-type: x mandatory;  
+  .slider-desktop {
+    scroll-snap-type: x mandatory;
     display: flex;
     -webkit-overflow-scrolling: touch;
     overflow-x: scroll;
-}
+  }
 
-.slider-desktop * {
+  .slider-desktop * {
     border-right: 3px solid white;
     min-width: 90vw;
     height: 100vh;
@@ -82,30 +82,37 @@ h1  {
     text-align: center;
     position: relative;
     display: block;
-}
+  }
 
-.slider-desktop p {
+  .slider-desktop p {
     font-size: 60px;
     line-height: 104.7%;
-    color: #FFFFFF;
+    color: #ffffff;
     max-height: 20%;
     padding: 10vw 0 0 10vw;
     text-align: start;
     text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.35);
-}
+  }
 
-.one-desktop {
-    background-image: url('../img/desktop/Desktop_Karusell_Bild_01.png');
+  .one-desktop,
+  .two-desktop,
+  .three-desktop {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .one-desktop {
+    background-image: url("../img/desktop/desktop_karusell_1.png");
     min-width: 95vw;
-}
+  }
 
-.two-desktop {
-    background-image: url('../img/desktop/Desktop_karusell_Bild_02.png');
-}
+  .two-desktop {
+    background-image: url("../img/desktop/desktop_karusell_2.png");
+  }
 
-.three-desktop {
-    background-image: url('../img/desktop/Desktop_Karusell_Bild_03.png');
+  .three-desktop {
+    background-image: url("../img/desktop/desktop_karusell_3.png");
     min-width: 95vw;
-}
-
+  }
 }

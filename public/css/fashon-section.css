@@ -68,9 +68,17 @@
     margin-top: 100%;
  }
 
+ #image{
+   display: none;
+}
+
  @media screen and (min-width: 1000px) {
     #image{
-        display: none;
+        display: block;
+    }
+
+    #mobile-image {
+       display: none;
     }
     
 
