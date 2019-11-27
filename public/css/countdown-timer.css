@@ -7,7 +7,6 @@
   color: #fff;
 }
 
-
 .countdown-container > div {
   display: flex;
   justify-content: space-around;
@@ -26,12 +25,11 @@
   display: flex;
   position: relative;
   color: #fff;
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/greenstudio_sida_rgb.jpg');
+  background: url("../img/mobile/Mobil_02_Bilfrånsidan.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 
 .quote {
   position: absolute;
@@ -59,9 +57,9 @@
 
 @media (min-width: 1200px) {
   .countdown-container {
-      width: 30%;
-      margin-left: 55rem;
-      padding: 2rem 0;
+    width: 30%;
+    margin-left: 55rem;
+    padding: 2rem 0;
   }
   .countdown-container > div {
     font-size: 68px;
@@ -77,12 +75,14 @@
   }
 
   .countdown-textbox {
-    height: 90vh;
     font-size: 30px;
-}
+    background: url("../img/desktop/desktop_02_front.png");
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
 
-.countdown-text p:last-child {
-  font-size: 22px;
-}
-
+  .countdown-text p:last-child {
+    font-size: 22px;
+  }
 }
