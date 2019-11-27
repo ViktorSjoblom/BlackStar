@@ -1,0 +1,24 @@
+.specification-container{
+    width: 100;
+    height: auto;
+    background-color: var(--dark-beige);
+}
+
+.specification-header{
+    background-color: var(--black);
+    padding: 10px 24px;
+    color: white;
+}
+
+.specification-car-container{
+    padding: 25px;
+}
+
+.specification-car-container img{
+    width: 100%;
+}
+
+.mobile-specification-text{
+    padding-bottom: 100px;
+}
+

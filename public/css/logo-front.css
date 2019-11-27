@@ -1,7 +1,7 @@
 .logo-front-container{
     position: relative;
     text-align: center;
-    padding: 15px 0px;
+    padding-top: 15px;
     background-color: var(--black);
   }
 
