@@ -3,7 +3,6 @@
 const showcaseContainer = document.querySelector('.showcase-container');
 const showcaseImage = showcaseContainer.querySelector('.showcase-images');
 const showcaseDivs = showcaseImage.querySelectorAll('img');
-console.log(showcaseDivs);
 const showcaseImg1 = showcaseContainer.querySelector('.showcase-car-1');
 const showcaseImg2 = showcaseContainer.querySelector('.showcase-car-2');
 const showcaseImg3 = showcaseContainer.querySelector('.showcase-car-3');
