@@ -6,41 +6,38 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 530px;
 }
 
-.fashion-flex{
+.fashion-flex {
   padding: 0 24px;
   color: white;
 }
 
-
-.fashion-flex h3{
+.fashion-flex h3 {
   padding-top: 16px;
   padding-bottom: 200px;
   font-size: 36px;
   line-height: 110.2%;
 }
 
-.fashion-flex h6{
+.fashion-flex h6 {
   font-size: 24px;
   line-height: 116%;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
-.fashion-flex p{
+.fashion-flex p {
   font-size: 14px;
   line-height: 128.2%;
 }
 
-.fashion-flex a{
+.fashion-flex a {
   font-size: 16px;
   line-height: 166.2%;
   text-decoration-line: underline;
   color: white;
 }
-
-
 
 @media screen and (min-width: 1000px) {
   .fashion-container {
@@ -52,38 +49,33 @@
     height: 821px;
   }
 
-  .fashion-flex{
+  .fashion-flex {
     padding-left: 100px;
   }
-  
-  
-  .fashion-flex h3{
+
+  .fashion-flex h3 {
     padding-top: 90px;
     padding-bottom: 225px;
     font-size: 88px;
     line-height: 110.2%;
   }
-  
-  .fashion-flex h6{
+
+  .fashion-flex h6 {
     padding-bottom: 10px;
     font-size: 44px;
     line-height: 116%;
   }
-  
-  .fashion-flex p{
+
+  .fashion-flex p {
     width: 608px;
     font-size: 24px;
     line-height: 143.7%;
   }
-  
-  .fashion-flex a{
+
+  .fashion-flex a {
     text-decoration-line: underline;
     color: white;
     font-size: 24px;
     line-height: 110.2%;
   }
-  
-  
 }
-
-

@@ -26,15 +26,16 @@
 }
 
 .sticky-circle {
-  height: 5rem;
-  width: 5rem;
+  height: 6rem;
+  width: 6rem;
   border-radius: 50%;
   background-color: var(--dark-beige);
   position: sticky;
   z-index: 2;
-  top: 85vh;
-  left: 75vw;
-  padding: 0.4rem;
+  top: 82vh;
+  left: 69vw;
+  margin-top: -2rem;
+  padding: 1rem;
 }
 
 .sticky-circle p {
@@ -138,11 +139,12 @@
     padding: 1rem 2rem 1rem 3rem;
   }
   .sticky-circle {
-    top: 85vh;
+    top: 75vh;
     left: 88vw;
     width: 146px;
     height: 146px;
     padding: 1rem;
+    margin-top: -5rem;
   }
 
   .sticky-circle p {
