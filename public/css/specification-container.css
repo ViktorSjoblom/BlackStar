@@ -28,6 +28,9 @@
 }
 
 @media screen and (min-width: 1000px) {
+  .specification-header{
+    padding-left: 100px;
+}
   .specification-car-mobile {
     display: none;
   }
