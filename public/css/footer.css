@@ -76,6 +76,7 @@
 
 .contact-desktop {
     font-size: 36px;
+    padding: 2.5rem 0 0rem 5rem;
 }
 
 .footer-logo-desktop-flex{
@@ -97,7 +98,7 @@
 .footer-text-desktop {
     font-size: 24px;
     line-height: 125.69%;
-    padding-left: 4rem;
+    padding-left: 5rem;
 }
 
 .social-media-desktop {
