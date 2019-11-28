@@ -17,8 +17,37 @@
 .specification-car-container img{
     width: 100%;
 }
-
-.mobile-specification-text{
+.specification-car-mobile{
     padding-bottom: 100px;
 }
+.specification-car-desktop{
+    display: none;
+}
 
+
+@media screen and (min-width: 1000px){
+
+    .specification-car-mobile{
+        display: none;
+    }
+.specification-car-desktop{
+   display: inline-block;
+
+}
+.specification-car-container img{
+    width: 100%;
+    
+}
+
+.specification-car-container{
+   display: inline-block;
+
+}
+
+.specification-flex{
+    margin: auto auto;
+}
+
+
+
+}
