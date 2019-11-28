@@ -1,3 +1,5 @@
+'use strict';
+
 // Set the date we're counting down to
 const countDownDate = new Date('February 14, 2020 12:00:00').getTime();
 
@@ -21,8 +23,8 @@ const x = setInterval(() => {
   document.querySelector('.hours').innerHTML = hours;
   document.querySelector('.minutes').innerHTML = minutes;
   document.querySelector('.seconds').innerHTML = seconds;
- 
-  // If the count down is over, write some text 
+
+  // If the count down is over, write some text
   if (distance < 0) {
     clearInterval(x);
     document.getElementById('countdown').innerHTML = 'EXPIRED';
