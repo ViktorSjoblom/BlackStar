@@ -3,11 +3,6 @@
 
 <img src="https://media.giphy.com/media/l0NwQEjAS77JyRvig/giphy.gif" width="100%">
 
-### Using
-
-Clone or Fork the repository
-Start a local php host on your computer in the Public folder. 
-Open index.php
 
 ## Built With
 
@@ -15,13 +10,25 @@ Open index.php
 * HTML
 * Javascript
 
-## Authors
+## web developers
 
 * **Jakob Fridmar** -- <a>https://github.com/JakobClausen</a>
 
 * **Jesper Lundqvist** -- <a>https://github.com/jesperlndqvst</a>
 
 * **Viktor Sjöblom** -- <a>https://github.com/ViktorSjoblom</a>
+
+## Designers
+
+* **Jessica Badenfelt** 
+
+* **Malin Kjelldahl** 
+
+## computer graphic design
+
+* **Annica Jönsson** 
+
+* **Nikita Rissanen** 
 
 
 ## License
