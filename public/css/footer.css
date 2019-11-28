@@ -1,19 +1,13 @@
 .footer-section {
     background: #E2D0BC;
-    width: auto;
     height: 249px;
-    max-height: 200vh;
-    margin: 0 auto;
-    padding: 0 0 3vw 0;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 125.69%;
     color: #000000;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -22,33 +16,26 @@
 }
 
 #footer-logo {
-    max-height: 80vw;
-    max-width: 45vw;
-}
-
-.footer-section img {
-    max-height: 10vw;
-    max-width: 10vw;
-    margin: 2vw;
+    width: 110px;
 }
 
 .social-media {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin-top: 5vw;
+    justify-content: space-evenly;
 }
 
 .footer-text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 1.5rem;
 }
 
 .contact {
     font-size: 14px;
     text-decoration: underline;
-    margin: 5vw 0 5vw 0;
+    padding-bottom: 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -68,16 +55,18 @@
     width: 86px;
     height: 43px;
     box-sizing: content-box;
-    padding-top: 50px;
 }
 
 #footer-eng-flag {
-    padding-left: 60px;
-    padding-right: 30px;
 }
 
 .footer-flags {
     display: flex;
+    padding: 3rem 0 0 5rem;
+}
+
+.footer-flags img {
+    padding-left: 1rem;
 }
 
 .social-media-desktop img {
@@ -87,7 +76,6 @@
 
 .contact-desktop {
     font-size: 36px;
-    line-height: 125.69%;
 }
 
 .footer-logo-desktop-flex{
@@ -103,19 +91,23 @@
 .footer-section-bottom {
     display: flex;
     justify-content: space-between;
-    padding-top: 13vw;
+    padding-top: 11rem;
 }
 
 .footer-text-desktop {
-    padding-left: 60px;
     font-size: 24px;
     line-height: 125.69%;
+    padding-left: 4rem;
 }
 
 .social-media-desktop {
-    width: 45vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding-right: 4rem;
+}
+
+.social-media-desktop img {
+    padding-left: 2rem;
 }
 
 }
