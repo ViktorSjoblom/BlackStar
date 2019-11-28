@@ -9,11 +9,11 @@
   background-repeat: no-repeat;
   height: 776px;
   color: white;
-  padding: 4vw;
+  padding: 1rem 0 1rem 1.5rem;
 }
 
 .comfort-testing {
-    padding-bottom: 77vw;
+  padding-bottom: 20rem;
 }
 
 .comfort-slides h2 {
@@ -24,6 +24,7 @@
 .comfort-slides h4 {
     font-size: 24px;
     line-height: 116%;
+    padding-bottom: 0.5rem;
 }
 
 .comfort-slides p {
@@ -33,28 +34,27 @@
 
 @media only screen and (min-width: 768px) {
 
-  .comfort-slide-one {
-    border-top: 15px solid black;
+.comfort-testing {
+padding: 22rem 0 0 0;
 }
 
-.comfort-testing {
-    padding-top: 31vw;
-    padding-bottom: 0vw;
-    margin-bottom: 0vw;
+#zero-padding-comfort {
+  padding-bottom: 0;
 }
 
   .comfort-slides h2 {
     font-size: 88px;
+    padding-left: 4rem;
   }
 
   .comfort-slides h4 {
     font-size: 36px;
+    padding-left: 4rem;
   }
 
   .comfort-slides p {
     font-size: 24px;
-    margin: 0;
-    padding: 0;
+    padding: 0 0 2rem 4rem;
   }
   .comfort-slides {
     background: url("../img/desktop/desktop_06_insida.png");
