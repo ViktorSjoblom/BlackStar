@@ -17,6 +17,7 @@ body {
     font-family: aktiv-grotesk, sans-serif;
     font-weight: 400;
     background-color: var(--light-beige);
+    width: 100vw;
 }
 
 a {

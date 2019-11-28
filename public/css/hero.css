@@ -46,50 +46,53 @@
 
 .newsletter-mobile-header {
   background: var(--dark-beige);
-  width: 264px;
-  height: 38px;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
+  padding: 0.6rem;
 }
 
 .newsletter-mobile {
-  width: 264px;
-  height: 457px;
   border-bottom: 12px solid var(--dark-beige);
   background: black;
+  height: 479px;
+  width: 264px;
   color: white;
   display: none;
   flex-direction: column;
-  justify-content: center;
+  margin: auto;
   position: sticky;
   position: -webkit-sticky;
   z-index: 2;
-  top: 12vh;
-  left: 14vw;
+  top: 12rem;
+ 
 }
 
 .newsletter-mobile-active {
   display: flex;
 }
 
+.newsletter-container {
+  padding: 2rem 0 1rem 1rem;
+}
+
 .exit-button {
   width: 28px;
   height: 28px;
-  margin: 1vw 2vw 0 0;
-  padding: 1vw;
-}
-
-#confirm-mobile {
-  margin: 5vw 0 0 2vw;
 }
 
 .newsletter-mobile p {
-  margin: 25vw 0 0 5vw;
+  padding-bottom: 1rem;
 }
 
 .newsletter-mobile-flex {
   display: flex;
   flex-direction: row;
+  padding: 2rem 0 1rem 0;
+}
+
+.newsletter-mobile-flex p {
+  padding-left: 0.7rem;
 }
 
 .newsletter-mobile input[type=text] {
@@ -98,20 +101,18 @@
   height: 44px;
   border-radius: 4px;
   text-align: center;
-  font-size: 16px;
   line-height: 116.2%;
-  margin: 10vw 0 0 5vw;
+  padding: 1rem 0;
+  border: none;
 }
 
 .newsletter-mobile input:placeholder {
-  font-size: 16px;
   line-height: 116.2%;
 }
 
 .newsletter-mobile input[type=checkbox] {
   width: 20px;
   height: 20px;
-  margin: 5vw 0 0 5vw;
 }
 
 .newsletter-mobile button {
@@ -120,13 +121,16 @@
   height: 44px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
   line-height: 116.2%;
-  margin: 5vw 0 9vw 5vw;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  color: #656464;
 }
 
 .newsletter-mobile-logo {
-  margin: 0 0 5vw 0;
+  padding-top: 5rem;
+ 
 }
 
 @media (min-width: 1200px) {
@@ -142,28 +146,22 @@
 
   .newsletter-mobile-header {
     background: var(--dark-beige);
-    width: 710px;
-    height: 38px;
+   
     display: flex;
     justify-content: flex-end;
   }
   
   .newsletter-mobile {
     width: 710px;
-    height: 419px;
     border-bottom: 12px solid var(--dark-beige);
     background: black;
     color: white;
     display: none;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     position: sticky;
     position: -webkit-sticky;
     z-index: 2;
-    top: 15vh;
-    left: 30vw;
-    padding: 1vw;
   }
   
   .newsletter-mobile-active {
@@ -172,21 +170,16 @@
   
   .exit-button {
     height: 38px;
-    width: 38px;
-    margin: 0 0 0 0;
-    padding: .5vw;
+    width: 38px; 
   }
   
   #confirm-mobile {
     font-size: 16px;
-    line-height: 116.2%;
-    margin: 1vw 0vw 0vw 0vw;
   }
   
-  .newsletter-mobile p {
+  .newsletter-mobile p:first-child {
     font-size: 36px;
-    line-height: 136.2%;
-    margin: 1vw 0 0 0vw;
+
   }
   
   .newsletter-mobile-flex {
@@ -202,19 +195,16 @@
     height: 44px;
     border-radius: 4px;
     text-align: center;
-    margin: 1vw 0 0 0vw;
-    padding: 1vw;
   }
   
   .newsletter-mobile input:placeholder {
     font-size: 16px;
-    line-height: 116.2%;
+  
   }
   
   .newsletter-mobile input[type=checkbox] {
     width: 20px;
     height: 20px;
-    margin: 1vw .5vw 0 .5vw;
   }
   
   .newsletter-mobile button {
@@ -224,21 +214,27 @@
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 116.2%;
-    margin: 0 0 0 8vw;
-    padding: 1vw;
     border-radius: 4px;
   }
   
   .newsletter-mobile-logo {
-    margin: 0 0 5vw 0;
+      width: 146px;
+      height: 76px;
+      padding: 0;
+      margin-top: 1rem;
+  }
+
+  .newsletter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .testing {
-    width: 300px;
     display: flex;
-    padding: 2vw 0 5vw 0;
-    justify-content: center;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
   }
 
 }
