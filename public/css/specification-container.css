@@ -1,59 +1,48 @@
-.specification-container{
-    width: 100;
-    height: auto;
-    background-color: var(--dark-beige);
-    margin: auto;
-  
+.specification-container {
+  width: 100;
+  height: auto;
+  background-color: var(--dark-beige);
+  margin: auto;
 }
 
-.specification-header{
-    background-color: var(--black);
-    padding: 10px 24px;
-    color: white;
+.specification-header {
+  background-color: var(--black);
+  padding: 10px 24px;
+  color: white;
 }
 
-.specification-car-container{
-    padding: 25px;
+.specification-header h3 {
+    font-size: 24px;
 }
 
-.specification-car-container img{
-    width: 100%;
+.specification-car-container {
+  padding: 25px;
 }
-.specification-car-mobile{
-    padding-bottom: 100px;
+
+.specification-car-container img {
+  width: 100%;
 }
-.specification-car-desktop{
+
+.specification-car-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .specification-car-mobile {
     display: none;
-}
-
-
-@media screen and (min-width: 1000px){
-
-    .specification-car-mobile{
-        display: none;
-    }
-.specification-car-desktop{
-   display: inline-block;
-
-}
-.specification-car-container img{
+  }
+  .specification-car-desktop {
+    display: inline-block;
+  }
+  .specification-car-container img {
     width: 100%;
-  
-    
-}
+  }
 
-.specification-car-container{
-   display: inline-block;
+  .specification-car-container {
+    display: inline-block;
+  }
 
-}
-
-.specification-car-desktop-one{
+  .specification-car-desktop-one {
     margin-left: 45px;
-    
-}
-
-
-
-
-
+  }
 }
