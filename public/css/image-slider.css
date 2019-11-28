@@ -29,7 +29,8 @@
   line-height: 104.7%;
   color: #ffffff;
   max-height: 20%;
-  padding: 10vw 0 0 10vw;
+  font-weight: 700;
+  padding: 3rem;
   text-align: start;
 }
 
@@ -67,57 +68,23 @@ h1 {
 }
 
 @media screen and (min-width: 768px) {
-  .slider {
-    display: none;
-  }
-
-  .slider-desktop {
-    scroll-snap-type: x mandatory;
-    display: flex;
-    -webkit-overflow-scrolling: touch;
-    overflow-x: scroll;
-  }
-
-  .slider-desktop * {
-    border-right: 3px solid white;
-    min-width: 90vw;
-    height: 100vh;
-    scroll-snap-align: center;
-    text-align: center;
-    position: relative;
-    display: block;
-  }
-
-  .slider-desktop p {
-    font-size: 60px;
-    line-height: 104.7%;
-    color: #ffffff;
-    max-height: 20%;
-    padding: 10vw 0 0 6vw;
-    text-align: start;
-  }
-
-  .one-desktop,
-  .two-desktop,
-  .three-desktop {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
   
-
-  .one-desktop {
+  .one {
     background-image: url("../img/desktop/desktop_karusell_1.png");
     min-width: 95vw;
   }
-
-  .two-desktop {
+  
+  .two {
     background-image: url("../img/desktop/desktop_karusell_2.png");
   }
-
-  .three-desktop {
+  
+  .three {
     background-image: url("../img/desktop/desktop_karusell_3.png");
     min-width: 95vw;
   }
+
+  .slider p {
+    font-size: 88px;
+  }
+ 
 }
