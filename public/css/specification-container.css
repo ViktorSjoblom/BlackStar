@@ -2,6 +2,8 @@
     width: 100;
     height: auto;
     background-color: var(--dark-beige);
+    margin: auto;
+  
 }
 
 .specification-header{
@@ -36,6 +38,7 @@
 }
 .specification-car-container img{
     width: 100%;
+  
     
 }
 
@@ -44,9 +47,12 @@
 
 }
 
-.specification-flex{
-    margin: auto auto;
+.specification-car-desktop-one{
+    margin-left: 45px;
+    
 }
+
+
 
 
 
