@@ -1,18 +1,24 @@
 .newsletter-section {
   background: #fff;
-  padding: 1rem 1rem;
+  padding: 1rem 2rem 2rem 2rem;
   position: relative;
+}
+
+.newsletter-section p {
+  font-size: 14px;
+  line-height: 143.2%;
 }
 
 .newsletter-section h2 {
   font-size: 36px;
   font-weight: 700;
   width: 80%;
+  padding-top: 1.5rem;
 }
 
 .newsletter-text h3 {
   font-size: 24px;
-  margin: 1rem 0;
+  margin: 1rem 0 0.5rem 0;
 }
 
 .newsletter-section img {
@@ -26,7 +32,7 @@
 }
 
 .newsletter-section button {
-  margin: 1rem 0;
+  margin: 3rem 0 1rem 0;
   padding: 1rem;
   border: none;
   background: var(--dark-beige);
@@ -34,6 +40,7 @@
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 16px;
+  font-weight: 700;
 }
 
 #newsletter-hidden,

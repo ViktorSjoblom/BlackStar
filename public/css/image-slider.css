@@ -40,6 +40,11 @@
   overflow-x: scroll;
 }
 
+.slider, .slider-desktop {
+  border-top: 15px solid var(--black);
+  border-bottom: 15px solid var(--black);
+}
+
 .slider * {
   border-right: 3px solid white;
   min-width: 90vw;
