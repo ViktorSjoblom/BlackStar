@@ -1,7 +1,3 @@
-.slider-desktop {
-  display: none;
-}
-
 .one,
 .two,
 .three {
@@ -39,9 +35,6 @@
   display: flex;
   -webkit-overflow-scrolling: touch;
   overflow-x: scroll;
-}
-
-.slider, .slider-desktop {
   border-top: 15px solid var(--black);
   border-bottom: 15px solid var(--black);
 }

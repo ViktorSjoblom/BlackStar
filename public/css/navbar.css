@@ -17,6 +17,10 @@
   padding: 0 2rem;
 }
 
+.logo {
+  padding-left: 5rem;
+}
+
 .logo img {
   width: 76px;
 }
@@ -67,7 +71,6 @@
   transform: rotate(45deg) translate(-4px, -6px);
 }
 
-
 @media screen and (max-width: 1024px) {
   .nav-links {
     width: 60%;
@@ -83,6 +86,11 @@
     justify-content: space-between;
     padding: 0 1rem;
   }
+
+  .logo {
+    padding-left: 0;
+  }
+
   .nav-links {
     position: absolute;
     right: 0;
@@ -104,11 +112,10 @@
   }
 
   .nav-links li {
-  
     font-weight: 400;
   }
 
-  .nav-links li a{
+  .nav-links li a {
     color: #fff;
   }
 
@@ -121,7 +128,6 @@
     margin-bottom: 2rem;
   }
 
-  
   .flag-container {
     display: flex;
     justify-content: space-around;

@@ -31,11 +31,10 @@
   border-radius: 50%;
   background-color: var(--dark-beige);
   position: sticky;
-  position: -webkit-sticky;
   z-index: 2;
   top: 85vh;
   left: 75vw;
-  padding: 0.4rem; 
+  padding: 0.4rem;
 }
 
 .sticky-circle p {
@@ -94,7 +93,7 @@
   padding-left: 0.7rem;
 }
 
-.newsletter-mobile input[type=text] {
+.newsletter-mobile input[type="text"] {
   background: var(--light-beige);
   width: 216px;
   height: 44px;
@@ -109,7 +108,7 @@
   line-height: 116.2%;
 }
 
-.newsletter-mobile input[type=checkbox] {
+.newsletter-mobile input[type="checkbox"] {
   width: 20px;
   height: 20px;
 }
@@ -129,7 +128,6 @@
 
 .newsletter-mobile-logo {
   padding-top: 5rem;
- 
 }
 
 @media (min-width: 1200px) {
@@ -141,16 +139,23 @@
   }
   .sticky-circle {
     top: 85vh;
-    left: 88vw; 
+    left: 88vw;
+    width: 146px;
+    height: 146px;
+    padding: 1rem;
+  }
+
+  .sticky-circle p {
+    font-size: 26px;
   }
 
   .newsletter-mobile-header {
     background: var(--dark-beige);
-   
+
     display: flex;
     justify-content: flex-end;
   }
-  
+
   .newsletter-mobile {
     width: 710px;
     border-bottom: 12px solid var(--dark-beige);
@@ -162,50 +167,48 @@
     position: sticky;
     z-index: 2;
   }
-  
+
   .newsletter-mobile-active {
     display: flex;
   }
-  
+
   .exit-button {
     height: 38px;
-    width: 38px; 
+    width: 38px;
   }
-  
+
   #confirm-mobile {
     font-size: 16px;
   }
-  
+
   .newsletter-mobile p:first-child {
     font-size: 36px;
-
   }
-  
+
   .newsletter-mobile-flex {
     display: flex;
     justify-content: center;
     justify-items: center;
     flex-direction: row;
   }
-  
-  .newsletter-mobile input[type=text] {
+
+  .newsletter-mobile input[type="text"] {
     background: var(--light-beige);
     width: 300px;
     height: 44px;
     border-radius: 4px;
     text-align: center;
   }
-  
+
   .newsletter-mobile input:placeholder {
     font-size: 16px;
-  
   }
-  
-  .newsletter-mobile input[type=checkbox] {
+
+  .newsletter-mobile input[type="checkbox"] {
     width: 20px;
     height: 20px;
   }
-  
+
   .newsletter-mobile button {
     background: var(--light-beige);
     width: 98px;
@@ -215,12 +218,12 @@
     font-size: 16px;
     border-radius: 4px;
   }
-  
+
   .newsletter-mobile-logo {
-      width: 146px;
-      height: 76px;
-      padding: 0;
-      margin-top: 1rem;
+    width: 146px;
+    height: 76px;
+    padding: 0;
+    margin-top: 1rem;
   }
 
   .newsletter-container {
@@ -235,17 +238,13 @@
     align-items: center;
     justify-content: space-between;
   }
-
 }
 
-
 @media (min-width: 600px) {
-
   .hero .img-hidden {
     display: block;
   }
   .hero .img-visible {
     display: none;
   }
-
 }
