@@ -93,7 +93,7 @@ h1 {
     line-height: 104.7%;
     color: #ffffff;
     max-height: 20%;
-    padding: 10vw 0 0 10vw;
+    padding: 10vw 0 0 6vw;
     text-align: start;
   }
 
@@ -104,6 +104,8 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  
 
   .one-desktop {
     background-image: url("../img/desktop/desktop_karusell_1.png");
