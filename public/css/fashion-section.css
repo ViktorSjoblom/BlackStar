@@ -10,7 +10,7 @@
 }
 
 .fashion-flex{
-  padding-left: 24px;
+  padding: 0 24px;
   color: white;
 }
 
@@ -74,7 +74,6 @@
     width: 608px;
     font-size: 24px;
     line-height: 143.7%;
-    font-weight: 300;
   }
   
   .fashion-flex a{
@@ -82,7 +81,6 @@
     color: white;
     font-size: 24px;
     line-height: 110.2%;
-    font-weight: 300;
   }
   
   

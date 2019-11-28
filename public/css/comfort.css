@@ -17,34 +17,33 @@
 }
 
 .comfort-slides h2 {
-    font-size: 36px;
-    line-height: 110.2%;
+  font-size: 36px;
+  line-height: 110.2%;
 }
 
 .comfort-slides h4 {
-    font-size: 24px;
-    line-height: 116%;
-    padding-bottom: 0.5rem;
+  font-size: 24px;
+  line-height: 116%;
+  padding-bottom: 0.5rem;
 }
 
 .comfort-slides p {
-    font-size: 16px;
-    line-height: 134.2%;
+  font-size: 16px;
+  line-height: 134.2%;
 }
 
 @media only screen and (min-width: 768px) {
+  .comfort-testing {
+    padding: 18rem 0 0 0;
+  }
 
-.comfort-testing {
-padding: 22rem 0 0 0;
-}
-
-#zero-padding-comfort {
-  padding-bottom: 0;
-}
+  #zero-padding-comfort {
+    padding-bottom: 0;
+  }
 
   .comfort-slides h2 {
     font-size: 88px;
-    padding-left: 4rem;
+    padding: 3rem 0 0 3rem;
   }
 
   .comfort-slides h4 {
