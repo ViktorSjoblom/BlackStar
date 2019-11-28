@@ -137,6 +137,7 @@
     position: absolute;
     bottom: 2rem;
     font-size: 88px;
+    padding: 1rem 2rem 1rem 3rem;
   }
   .sticky-circle {
     top: 85vh;
