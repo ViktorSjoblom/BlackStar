@@ -25,15 +25,8 @@
   display: none;
 }
 
-@media screen and (min-width: 1000px){
 
-  .specification-padding{
-    padding-right: 100px;
-  }
-
-}
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   .specification-header{
     padding-left: 100px;
     height: 131px;
@@ -57,11 +50,6 @@
   .specification-car-container {
     display: inline-block;
    }
-
-   .specification-padding{
-     padding-right: 300px;
-   }
-
 
   .specification-car-desktop-one {
     margin-left: 45px;
