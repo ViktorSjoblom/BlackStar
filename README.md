@@ -10,7 +10,7 @@
 * HTML
 * Javascript
 
-## web developers
+## Web Developers
 
 * **Jakob Fridmar** -- <a>https://github.com/JakobClausen</a>
 
@@ -24,7 +24,7 @@
 
 * **Malin Kjelldahl** 
 
-## computer graphic design
+## Computer Graphic Design
 
 * **Annica Jönsson** 
 
