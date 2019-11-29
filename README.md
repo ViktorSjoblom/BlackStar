@@ -10,7 +10,7 @@
 * HTML
 * Javascript
 
-## Netlify link
+## Netlify Link
 
 * https://black-star.netlify.com/
 
