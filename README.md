@@ -10,6 +10,10 @@
 * HTML
 * Javascript
 
+## Netlify link
+
+* https://black-star.netlify.com/
+
 ## Web Developers
 
 * **Jakob Fridmar** -- <a>https://github.com/JakobClausen</a>
