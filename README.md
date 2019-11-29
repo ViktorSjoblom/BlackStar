@@ -6,7 +6,7 @@
 
 ## Built With
 
-* PHP
+* CSS
 * HTML
 * Javascript
 
