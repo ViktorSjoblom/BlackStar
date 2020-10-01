@@ -1,7 +1,7 @@
 # BlackStar
 
 
-<img src="https://media.giphy.com/media/l0NwQEjAS77JyRvig/giphy.gif" width="100%">
+<img src="https://media.giphy.com/media/l0NwQEjAS77JyRvig/giphy.gif" width="50%">
 
 
 ## Built With
